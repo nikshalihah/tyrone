@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Shalihah's Gallery</title>
+  <style>
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fce4ec; 
+      margin: 0;
+      padding: 0;
+      color: #000; 
+      text-align: center;
+    }
+
+    h1 {
+      background: linear-gradient(to right, #ff80ab, #f48fb1); 
+      color: white;
+      padding: 20px;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      margin-top: 0;
+      border-bottom: 3px solid #f48fb1;
+    }
+
+    h2 {
+      color: #d81b60; 
+      font-size: 2em;
+      margin-top: 40px;
+    }
+
+    table {
+      width: 90%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: #f8bbd0; 
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 1px solid black; 
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid black; 
+    }
+
+    th {
+      background-color: #d81b60; 
+      color: white;
+      font-size: 1.2em;
+    }
+
+    .category {
+      font-weight: bold;
+      color: #010101;
+    }
+
+    .media img, .media video {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .media img:hover, .media video:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .media video {
+      width: 400px;
+      height: 240px;
+      margin-top: 10px;
+    }
+
+    .caption {
+      font-size: 0.9em;
+      color: #666; 
+      margin-top: 5px;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .container {
+      margin-bottom: 40px;
+      border-radius: 12px;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    video {
+      border: 2px solid #d95d86;
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .media img, .media video {
+        width: 80px;
+        height: 80px;
+      }
+
+      h2 {
+        font-size: 1.6em;
+      }
+
+      table {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1><marquee>Welcome to Shalihah's Gallery</marquee></h1>
+
+  <div class="container">
+    <h2>Schoolmates 📚</h2>
+    <table>
+      <tr>
+        <th class="category">Category</th>
+        <th class="category">Details</th>
+      </tr>
+      <tr>
+        <td>Pictures of Schoolmates</td>
+        <td class="media">
+          <div>
+            <img src="pics/gambar dengan schoolmate.jpg" alt="Shalihah with schoolmate 1">
+            <p class="caption">This is a picture of me with my amazing schoolmate and best friend, Fatin. 
+              We've been through so much together since 2017, and she’s been a constant source of support and laughter in my life. 
+              Fatin is the definition of loyalty, always there when I need her, whether it's for a shoulder to lean on or just to share a laugh. 
+              Our friendship is built on trust, shared memories, and the kind of bond that only grows stronger with time. She’s truly one of a kind!
+          </div>
+          <div>
+            <img src="pics/schoolmate2].jpg" alt="Shalihah with schoolmate 2">
+            <p class="caption"> This is one of my schoolmates, a friend I’ve had the privilege of keeping in touch with since I was 15 years old. 
+              Over the years, we’ve shared countless moment, from laughter that never seemed to end to tears that we wiped away together. 
+              Our friendship has been through it all, and it’s those unforgettable memories that have made our bond so strong. 
+              We’ve grown up side by side, and I’m grateful for every moment we’ve shared.</p>
+          </div>
+          <div>
+            <img src="pics/schoolmate3.jpg" alt="Shalihah with schoolmate 3">
+            <p class="caption"> This is my dear friend Aini, someone who has been a guiding light in my life since we first became friends. 
+              Aini has always been there to help me overcome my fears and lift my spirits, even when my dreams seemed too big or impossible. 
+              Her unwavering belief in me has meant the world. 
+              We may not get to see or talk to each other as much lately, and I really miss those deep conversations and the comfort of her support. 
+              No matter the distance, I know our bond will always stay strong.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Video of Schoolmates</td>
+        <td class="media">
+          <video controls>
+            <source src="videos/video kawan.MP4" type="video/mp4">
+          </video>
+          <p class="caption">Here’s a fun moment with my schoolmates right after art class and it's one of those carefree times that made the school day unforgettable. 
+            We spent so many hours together during those high-pressure days, especially around the time of the SPM exams.
+            Despite the stress and late-night study sessions, we always found ways to laugh, support each other, and make lasting memories.
+            Those were the moments that helped me get through it all, and they remind me of how lucky I was to have such an amazing group of friends by my side. 
+            Secondary school may be behind us now, but those memories still bring a smile to my face every time I think about them.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <h2>Unimates 🎓 </h2>
+    <table>
+      <tr>
+        <th class="category">Category</th>
+        <th class="category">Details</th>
+      </tr>
+      <tr>
+        <td>Pictures of Unimates</td>
+        <td class="media">
+          <div>
+            <img src="pics/MIMI.jpeg" alt="Unimate 1">
+            <p class="caption"> This is Syaza Syamimi, but most of us lovingly call her Mimi. 
+              Isn’t that just the cutest name? Hehe! Mimi has always been someone who loves to share knowledge and inspire others. 
+              She’s a person who knows exactly what she wants in life and pursues it with unwavering determination. 
+              Whether it’s chasing her dreams or completing every task with precision, she does it all with such focus and grace. 
+              Throughout our time together, I’ve always seen her as a natural leader and a guiding force around as well as
+              someone who not only knows the way but also leads by example.
+          <div>
+            <img src="pics/FARAH.jpg" alt="Unimate 2">
+            <p class="caption">Look at her, this is one of my happiest, go-with-the-flow friends, Farah Aqilah. 
+              She’s the type of person who always brings a sense of calm with her gentle smile and kind heart. 
+              Farah has this amazing ability to put everyone at ease, no matter what’s going on. 
+              I absolutely love talking to her because her warmth and wholesome nature are contagious. 
+              Her presence alone makes us all laugh and smile, and it’s hard not to feel happy when she's around.</p>
+          </div>
+          <div>
+            <img src="pics/SHAZLEEN.jpg" alt="Unimate 3">
+            <p class="caption">Let me introduce you to the most gorgeous girl, the one and only Princess Shazleen! 
+              Not only is she stunning on the outside, but she also has a heart of gold. 
+              Shazleen is deeply passionate about encouraging her friends and groupmates to always believe in themselves and never lose sight of their worth. 
+              She’s the kind of person who inspires confidence and respect, both for ourselves and others. 
+              Her positivity and wisdom make her an amazing friend and a true leader in every sense.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Video of Unimates</td>
+        <td class="media">
+          <video controls>
+            <source src="videos/video unimate.MP4" type="video/mp4">
+          </video>
+          <p class="caption">A video of us as Unimates hanging out and having fun making tiktok videos and creating memories 
+            with each other since this is our last semester already.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <h2>Housemates 🏠</h2>
+    <table>
+      <tr>
+        <th class="category">Category</th>
+        <th class="category">Details</th>
+      </tr>
+      <tr>
+        <td>Pictures of Housemates</td>
+        <td class="media">
+          <div>
+            <img src="pics/housemate 1.jpg" alt="Housemate 1">
+            <p class="caption">This is one of my housemates, my roommate, and one of my closest friends here. 
+              I met her on my very first day at university, and I honestly never imagined I’d find such a caring and amazing friend like her. 
+              She’s always there to remind me of the good things ahead and to comfort me whenever I’m feeling down. 
+              In many ways, she’s like a sister to me — always checking in on my day and making sure I’ve eaten something (she worries if I don’t, haha!). 
+              I’m beyond thankful to have her in my life; she’s a true blessing and a constant source of support
+          <div>
+            <img src="pics/housemate 2.jpg" alt="Housemate 2">
+            <p class="caption"> This is Nurien, but most of us know her by her artist name, 'Sofi Jikan.' 
+              She’s always full of smiles and laughter, and her positive energy is absolutely contagious.
+               I’m lucky to call her a friend — someone who’s always there for me no matter what. 
+               I’ve known her since Minggu Destini Siswa during our first semester, and I still remember the day we first met at Medan Selera UiTM Rembau. 
+               It’s funny, because she knows almost every Korean song — and I’m pretty sure she’s a huge fan of Korean culture! 
+               Her passion for music and her vibrant personality make her such a joy to be around. </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Video of Housemates</td>
+        <td class="media">
+          <video controls>
+            <source src="videos/VIDEO HOUSEMATE.MP4" type="video/mp4">
+          </video>
+          <p class="caption">A random video of us inside the car. This video was recorded during our outing together to Seremban.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+        
+        <footer>
+            <p>Click here to go back at first page</p>
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+

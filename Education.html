@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Shalihah Hanaan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main-color: #d07da4;
+            --background-color: #f5e1e1;
+            --text-color: #333;
+            --secondary-text-color: #666;
+            --border-color: #e0a9b1;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px var(--shadow-color);
+        }
+
+        header h1 {
+            text-align: center;
+            color: var(--main-color);
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--main-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .education-timeline {
+            margin-top: 20px;
+        }
+
+        .education-item {
+            display: flex;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+
+        .education-item img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        .education-item .education-details {
+            flex: 1;
+        }
+
+        .education-item h3 {
+            font-size: 1.5rem;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+        .education-item p {
+            font-size: 1rem;
+            color: var(--secondary-text-color);
+            margin-bottom: 10px;
+        }
+
+        .education-item .dates {
+            font-size: 0.9rem;
+            color: var(--main-color);
+        }
+
+        @media (max-width: 768px) {
+            .education-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .education-item img {
+                margin: 0 auto 15px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        footer button {
+            background-color: var(--main-color);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        footer button:hover {
+            background-color: #b3658b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Education - Shalihah Hanaan</h1>
+        </header>
+
+        <section class="education">
+            <h2 class="section-title">My Education Journey</h2>
+
+            <div class="education-item">
+                <img src="pics/kindergarten.jpg" alt="Kindergarten Image">
+                <div class="education-details">
+                    <h3>Kindergarten</h3>
+                    <p>I began my educational journey in kindergarten, where I learned the basics of reading, writing, and socializing with my peers.</p>
+                    <p class="dates">Duration: 2008 - 2009</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="pics/logo sktm.jpeg" alt="Logo of SKTM Primary School, Cheras">
+                <div class="education-details">
+                    <h3>Primary School - Cheras</h3>
+                    <p>I spent my early primary school years in Cheras, where I developed a strong foundation in math, language, and science.</p>
+                    <p class="dates">Duration: 2011 - 2013</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="pics/logo sk kubang kerian.jpeg" alt="Logo of SK Kubang Kerian Primary School, Kelantan">
+                <div class="education-details">
+                    <h3>Primary School - Kelantan</h3>
+                    <p>After moving to Kelantan, I continued my primary education in a new environment, where I adapted to a different culture and learned valuable life lessons.</p>
+                    <p class="dates">Duration: 2011</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="pics/logo sk kantan permai.jpeg" alt="Logo of SK Kantan Permai Primary School, Kajang">
+                <div class="education-details">
+                    <h3>Primary School - Kajang</h3>
+                    <p>In Kajang, I finished my primary education with a focus on academics as well as extracurricular activities, including sports and arts.</p>
+                    <p class="dates">Duration: 2014 - 2017</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="pics/logo smksi.jpeg" alt="Logo of SMKSI Secondary School, Kajang">
+                <div class="education-details">
+                    <h3>Secondary School - Kajang</h3>
+                    <p>In secondary school, I delved deeper into my studies, particularly in subjects like mathematics and science, which set the foundation for my future career interests.</p>
+                    <p class="dates">Duration: 2018 - 2022</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="pics/uitm rembau.jpeg" alt="UiTM Rembau Campus">
+                <div class="education-details">
+                    <h3>UiTM (Universiti Teknologi MARA)</h3>
+                    <p>Currently, I am pursuing my studies at UiTM in the field of Information Management, where I am enhancing my technical skills, knowledge, and preparing for a future in tech.</p>
+                    <p class="dates">Current: 2022 - Present</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Click here to go back to the first page</p>
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </footer>
+    </div>
+</body>
+</html>
